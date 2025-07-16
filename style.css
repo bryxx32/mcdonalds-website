@@ -1,0 +1,54 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+header {
+  background-color: #ffc107;
+  padding: 10px 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.hero {
+  padding: 50px;
+  text-align: center;
+  background: #f4f4f4;
+}
+main section {
+  padding: 20px;
+}
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
